@@ -1,0 +1,77 @@
+html,body {
+	margin-top:-5px;
+	padding:8px;
+	background: #fff;
+	color:#fff;
+}
+
+.well {
+	background:#fff;
+border-radius: 4px;
+border: 3px solid #00008B;
+
+}
+
+.btn-birubri {
+    background:#8B0000;
+    color:#fff;
+}
+ 
+.btn-birubri:hover {
+  
+   background:#550808;
+   color:#fff;
+}
+ 
+.btn-birubri:active {
+    background-color:#550808;
+}
+
+.btn-orangebri {
+    background:#FF8C00;
+    color:#fff;
+}
+ 
+.btn-orangebri:hover {
+  
+   background:#D77803;
+   color:#fff;
+}
+ 
+.btn-orangebri:active {
+    background-color:#D77803;
+}
+
+
+
+
+
+.btn-mks1 {
+    background:#0000FF;
+    color:#fff;
+}
+ 
+.btn-mks1:hover {
+  
+   background:#00008B;
+   color:#fff;
+}
+ 
+.btn-mks1:active {
+    background-color:#286090;
+}
+
+.btn-mks2 {
+    background:#a3d064;
+    color:#fff;
+}
+ 
+.btn-mks2:hover {
+  
+   background:#228B22;
+   color:#fff;
+}
+ 
+.btn-mks2:active {
+    background-color:#228B22;
+}

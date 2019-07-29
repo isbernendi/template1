@@ -1,0 +1,613 @@
+
+/* Show at least something when animations not supported */
+.no-cssanimations .cb-slideshow li span{
+	opacity: 1;
+}
+
+@media screen and (max-width: 1140px) { 
+    .cb-slideshow li div h3 { font-size: 140px }
+}
+@media screen and (max-width: 600px) { 
+    .cb-slideshow li div h3 { font-size: 80px }
+}
+
+.input {
+width : 100%;
+height : 40px;
+margin-top:3px;
+margin-bottom:3px;
+text-align: center;
+background-color: transparent;
+box-shadow: none;
+border: 1px solid #777;
+
+color: #333;
+border-radius: 4px;
+font-size:25px;
+z-index: 9999;
+
+}
+
+
+
+.input:-webkit-autofill {
+-webkit-box-shadow: inset 0 0 0px 99999px #ffffff !important;
+
+}
+.input-login:-ms-input-placeholder {
+color: #bbbbbb;
+}
+.input-login::-moz-placeholder{
+color: #bbbbbb;
+}
+.input-login::-webkit-input-placeholder {
+color: #bbbbbb;
+
+    font-weight: bold;
+}
+.input-login:focus{
+color: #A5A5A5;
+
+}
+
+input::-webkit-input-placeholder {
+color: #A5A5A5 !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #A5A5A5 !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #A5A5A5 !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #A5A5A5 !important;  
+}
+
+
+.btn {
+	width: 49%;
+	height: 35px;
+    border:1px solid transparent;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+margin-top:2px;
+margin-bottom:5px;
+line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	-ms-touch-action:manipulation;
+	touch-action:manipulation;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	background-image:none;
+	border:1px ;
+	border-radius:4px;
+
+		box-shadow:0 10px 15px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)}
+}
+
+}
+ .btn:focus{
+outline: 0 !important;
+}
+
+.btn2 {
+	width: 49%;
+	height: 38px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+margin-top:2px;
+margin-bottom:5px;
+}
+ .btn:focus{
+outline: 0 !important;
+}
+
+
+
+
+
+.btn1 {
+	width: 49%;
+	height: 35px;
+    border:1px solid transparent;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+margin-top:2px;
+margin-bottom:5px;
+line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	-ms-touch-action:manipulation;
+	touch-action:manipulation;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	background-image:none;
+	border:1px ;
+	border-radius:4px;
+
+	
+}
+
+}
+ .btn1:focus{
+outline: 0 !important;
+}
+
+.btn1 {
+	width: 49%;
+	height: 30px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+margin-top:2px;
+margin-bottom:5px;
+}
+ .btn1:focus{
+outline: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#element-with-background-image {
+   position: relative;
+   background-image: url("//spin.atomicobject.com/wp-content/uploads/20170324102432/portfolio-tips-feature-image.jpg");
+}
+ 
+#color-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #000;
+   opacity: 0.8;
+}
+
+ A:link {text-decoration: none}
+    A:visited {text-decoration: none}
+    A:active {text-decoration: none}
+	
+	/*faq */
+
+.panel-heading2 {
+  color: #000;
+  font-size:15px;
+  text-align: left;
+  
+}
+
+.panel-body2 {
+	text-align: left;
+	padding:8px;
+}
+
+/*faq */
+
+tbody {
+	color:#B9040B;
+	font-weight: bold;
+}
+
+thead {
+	background:#B9040B;
+	color:#fff;
+	
+}
+
+.btn2 {
+	width: 40%;
+	height: 38px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	border-radius:5px;
+	margin-bottom:7px;
+}
+ .btn2:focus{
+outline: 0 !important;
+}
+
+/* warna panel harga paket */
+.panel-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.panel-merah {
+	border-color:#F5003D;
+}
+
+.panel-merah >.panel-heading {
+  background: #F5003D;
+}
+
+
+.panel-hijau {
+	border-color:#2AA648;
+}
+
+.panel-hijau > .panel-heading {
+  background: #2AA648;
+}
+
+.panel-orange {
+	border-color:#FF5722;
+}
+
+.panel-orange > .panel-heading {
+  background: #FF5722;
+}
+
+.panel-silver {
+	border-color:#C0C0C0;
+}
+
+.panel-silver > .panel-heading {
+  background: #C0C0C0;
+}
+
+.panel-gold {
+	border-color:#D4AF37;
+}
+
+.panel-gold > .panel-heading {
+  background: #D4AF37;
+}
+
+.panel-ungu {
+	border-color:#D400FF;
+}
+
+.panel-ungu > .panel-heading {
+  background: #D400FF;
+}
+
+.panel
+{
+    text-align: center;
+}
+.panel:hover { box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); }
+.panel-body
+{
+    padding: 0px;
+    text-align: center;
+}
+
+.the-price
+{
+    background-color: rgba(220,220,220,.17);
+
+    padding: 20px;
+    margin: 0;
+}
+
+.the-price h1
+{
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+	font-size: 30px;
+}
+
+.subscript
+{
+    font-size: 25px;
+}
+
+/* CSS-only ribbon styles    */
+.cnrflash
+{
+    /*Position correctly within container*/
+    position: absolute;
+    top: -9px;
+    right: 4px;
+    z-index: 1; /*Set overflow to hidden, to mask inner square*/
+    overflow: hidden; /*Set size and add subtle rounding  		to soften edges*/
+    width: 100px;
+    height: 100px;
+    border-radius: 3px 5px 3px 0;
+}
+.cnrflash-inner
+{
+    /*Set position, make larger then 			container and rotate 45 degrees*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 145px;
+    height: 145px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -o-transform: rotate(45deg); /* Opera */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari and Chrome */
+    -webkit-transform-origin: 100% 100%; /*Purely decorative effects to add texture and stuff*/ /* Safari and Chrome */
+    -ms-transform-origin: 100% 100%;  /* IE 9 */
+    -o-transform-origin: 100% 100%; /* Opera */
+    -moz-transform-origin: 100% 100%; /* Firefox */
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.1) 50%), linear-gradient(0deg, transparent 0%, rgba(1,1,1,.2) 50%);
+    background-size: 4px,auto, auto,auto;
+    background-color: #aa0101;
+    box-shadow: 0 3px 3px 0 rgba(1,1,1,.5), 0 1px 0 0 rgba(1,1,1,.5), inset 0 -1px 8px 0 rgba(255,255,255,.3), inset 0 -1px 0 0 rgba(255,255,255,.2);
+}
+.cnrflash-inner:before, .cnrflash-inner:after
+{
+    /*Use the border triangle trick to make  				it look like the ribbon wraps round it's 				container*/
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border: 8px solid #800000;
+}
+.cnrflash-inner:before
+{
+    left: 1px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+.cnrflash-inner:after
+{
+    right: 0;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.cnrflash-label
+{
+    /*Make the label look nice*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    padding-bottom: 5px;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(1,1,1,.8);
+    font-size: 0.95em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table {
+background:#transparent;
+margin-bottom: 5px;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:0x;   /* tinggi dari footer */
+   background:transparent;
+}
+
+/* EXAMPLE 6 - Background Logo*/
+
+
+.example6 .navbar-brand{ 
+ background: url('../images/logonav.png') center / contain no-repeat;
+  width: 200px;
+
+}
+
+
+.destacados{
+    padding: 0 0;
+    text-align: center;
+  margin-bottom:-15px;
+}   
+
+.box1 {
+    /* See "NOTE 3" */
+    position:relative;
+    z-index:1;
+    width:100%;
+    padding:32px;
+    margin:-17px auto;
+     border: 1px solid transparent;
+
+	background:  transparent;
+        border-radius: 0px;
+	
+}
+
+.box1 h3 {
+    position:relative;
+    padding:10px 30px;
+    margin:0 -30px 20px;
+    font-size:28px;
+    line-height:32px;
+    font-weight:bold;
+    text-align:center;
+    color:#fff;
+    background:#cc0000;
+    /* css3 extras */
+    text-shadow:0 1px 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow:0 1px 1px rgba(0,0,0,0.2);
+       -moz-box-shadow:0 1px 1px rgba(0,0,0,0.2);
+            box-shadow:0 1px 1px rgba(0,0,0,0.2);
+    /* See "NOTE 1" */
+    zoom:1;
+}
+
+.box1 h3:before,
+.box1 h3:after {
+    content:"";
+    position:absolute;
+    /* See "NOTE 2" */
+    z-index:-1;
+    top:100%;
+    left:0;
+    border-width:0 10px 10px 0;
+    border-style:solid;
+    border-color:transparent maroon;
+}
+
+.box1 h3:after {
+    left:auto;
+    right:0;
+    border-width:0 0 10px 10px;
+}
+
+
+
+
+
+
+.box1 h4 {
+    position:relative;
+    padding:10px 0px;
+	
+    margin:0 -30px 20px;
+    font-size:28px;
+    line-height:52px;
+    font-weight:bold;
+    text-align:center;
+    color:#fff;
+    background:#F46F20;
+	height:54px;
+
+    /* css3 extras */
+    text-shadow:0 1px 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow:0 1px 1px rgba(0,0,0,0.2);
+       -moz-box-shadow:0 1px 1px rgba(0,0,0,0.2);
+            box-shadow:0 1px 1px rgba(0,0,0,0.2);
+    /* See "NOTE 1" */
+    zoom:1;
+}
+
+.box1 h4:before,
+.box1 h4:after {
+    content:"";
+    position:absolute;
+    /* See "NOTE 2" */
+    z-index:-1;
+    top:100%;
+    left:0;
+    border-width:0 10px 10px 0;
+    border-style:solid;
+    border-color:transparent #FF0000;
+}
+
+.box1 h4:after {
+    left:auto;
+    right:0;
+    border-width:0 0 10px 10px;
+}
+
+.colorgraph {
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.garis {
+  height: 5px;
+  border-top: 0;
+  background: #00008B;
+  margin-top:-14px;
+}
+
+
+.navbar-default
+{
+    background-color: #0000FF;
+    background-image: none;
+    color: #FFFFFF;
+	text-align:right;
+  
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000000;
+}
+.navbar-default .navbar-nav > .active  {
+    color: #1E90FF;
+    background: #1E90FF;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #1E90FF;
+    background-color: #1E90FF;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #1E90FF;
+    border-bottom-color: #1E90FF;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #1E90FF;
+    border-bottom-color: #1E90FF;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #1E90FF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-nav > .active  {
+    
+}
+.navbar-default .navbar-nav > .active{
+      color: #000;
+    background: #1E90FF;
+  }
+  .navbar-default .navbar-nav > .active > a, 
+  .navbar-default .navbar-nav > .active > a:hover, 
+  .navbar-default .navbar-nav > .active > a:focus {
+          color: #000000;
+    background: #1E90FF;
+   }
+   
